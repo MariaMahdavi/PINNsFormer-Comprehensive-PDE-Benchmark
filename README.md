@@ -23,7 +23,6 @@ The project reproduces **PINNsFormer** ([Zhao, Ding & Prakash, ICLR 2024](https:
 | Kuramoto–Sivashinsky Equation | 4th | $x \in [-10,10],\ t \in [0,1]$ |
 | Korteweg–de Vries (KdV) Equation | 3rd | $x \in [-1,1],\ t \in [0,1]$ |
 
-> **Note:** The Allen–Cahn notebook is part of the completed project (see the report) but is not yet uploaded to this repository — it will be added soon.
 
 ## Key Idea
 
@@ -96,26 +95,7 @@ jupyter notebook notebooks/PINNsFormer_Burgers.ipynb
 
 Each notebook automatically downloads its reference solution (`.mat` file) from the [original PINN repository](https://github.com/maziarraissi/PINNs) and runs both models end-to-end — no extra setup required. A GPU is recommended but not required (training will fall back to CPU automatically).
 
-## References
 
-This project is a reproduction and evaluation study built on top of the following works:
-
-- Zhao, Z., Ding, X., & Prakash, B. A. (2024). *PINNsFormer: A Transformer-Based Framework for Physics-Informed Neural Networks.* ICLR.
-- Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.* Journal of Computational Physics, 378, 686–707.
-- Vaswani, A., et al. (2017). *Attention is all you need.* NeurIPS.
-- Rahaman, N., et al. (2019). *On the spectral bias of neural networks.* ICML.
-- Krishnapriyan, A., et al. (2021). *Characterizing possible failure modes in physics-informed neural networks.* NeurIPS.
-
-The full reference list is included in the [project report](report/PINNsFormer_Bachelor_Report_FA.pdf).
-
-## Authors
-
-- **Maria Mahdavi Lain** — [GitHub](https://github.com/MariaMahdavi)
-- **Zohreh Sarmali Saeedi**
 
 Bachelor's Project, Amirkabir University of Technology (Tehran Polytechnic), Faculty of Mathematics and Computer Science
-Supervisor: Dr. Fatemeh Shakeri — Mordad 1405 (August 2026)
-
-## License
-
-This project is released under the [MIT License](LICENSE).
+Supervisor: Dr. Fatemeh Shakeri (August 2026)
