@@ -11,8 +11,6 @@
 
 ## About
 
-This repository contains the implementation and results of my bachelor's project at **Amirkabir University of Technology (Tehran Polytechnic)**, Faculty of Mathematics and Computer Science, supervised by **Dr. Fatemeh Shakeri**.
-
 The project reproduces **PINNsFormer** ([Zhao, Ding & Prakash, ICLR 2024](https://arxiv.org/abs/2312.10529)) — a Transformer-based architecture for Physics-Informed Neural Networks that converts each spatio-temporal input point into a short pseudo-sequence and processes it with self-attention — and evaluates it against a standard MLP-based PINN baseline on five benchmark PDEs:
 
 | Equation | Order | Domain |
